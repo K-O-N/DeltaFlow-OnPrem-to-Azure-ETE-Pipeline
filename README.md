@@ -1,4 +1,4 @@
-# Sales-Streaming-Azure-ETE-Pipeline
+# AdventureWorksLT-Data-Lakehouse-Architecture-ETE-Pipeline
 
 A modern, scalable Data Lakehouse platform built on the Medallion Architecture using Azure Data Factory (ADF), Azure Data Lake Storage (ADLS Gen2), Azure Databricks (PySpark/Delta Lake), and Azure Synapse Analytics.
 
