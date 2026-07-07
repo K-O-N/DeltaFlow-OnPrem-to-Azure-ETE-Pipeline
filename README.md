@@ -1,4 +1,4 @@
-# AdventureWorksLT-Data-Lakehouse-Architecture-ETE-Pipeline
+# DeltaFlow-OnPrem-to-Azure-ETE-Pipeline
 
 End-to-end Azure data engineering pipeline that incrementally migrates data from an on-premises SQL Server to Azure Data Lake Storage Gen2 using Azure Data Factory and watermark-based loading, then transforms the data in Azure Databricks using the Medallion architecture (Bronze, Silver, Gold), and Azure Synapse Analytics.
 
