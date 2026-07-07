@@ -13,7 +13,7 @@ This project orchestrates the ingestion, transformation, and optimization of rel
 
 The data platform transitions through an automated pipeline designed for incremental updates, minimal processing costs, and maximum query performance:
 Ingestion (Staging): Azure Data Factory securely copies transactional data from on-premises SQL Server instances and drops them as compressed Parquet files into a raw landing zone in ADLS Gen2.
-![](ADF_pipeline.jpeg)
+![](ADF_pipeline.jpeg)  
 
 ##### Bronze Layer (Raw Replication): 
 An ingestion pipeline was created to dynamically auto load all source data from the source containers as they drop to the bronze layer. Databricks Auto Loader monitors cloud folders to discover new batches incrementally, appending raw entries seamlessly into schema-inferred Bronze Parquet tables.  
