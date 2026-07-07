@@ -1,6 +1,6 @@
 # AdventureWorksLT-Data-Lakehouse-Architecture-ETE-Pipeline
 
-A modern, scalable Data Lakehouse platform built on the Medallion Architecture, integrating data from an on-premises SQL database using  Azure Data Factory (ADF), Azure Data Lake Storage (ADLS Gen2), Azure Databricks (PySpark/Delta Lake), and Azure Synapse Analytics.
+End-to-end Azure data engineering pipeline that incrementally migrates data from an on-premises SQL Server to Azure Data Lake Storage Gen2 using Azure Data Factory and watermark-based loading, then transforms the data in Azure Databricks using the Medallion architecture (Bronze, Silver, Gold), and Azure Synapse Analytics.
 
 This project orchestrates the ingestion, transformation, and optimization of relational ERP data from an on-premises SQL Server environment into high-performance, analytical Star Schemas ready for business intelligence.
 
